@@ -4,6 +4,7 @@ public class Bike {
 	private int price;
 	private String brand;
 	private String colour;
+	private int cc;
 	
 	private boolean isElectric;
 	public void setprice(int price) {
@@ -23,6 +24,12 @@ public class Bike {
 	}
 	public String getcolour() {
 		return colour;
+	}
+	public void setcc(int cc) {
+		this.cc=cc;
+	}
+	public int getcc() {
+		return cc;
 	}
 	public void setisElectric(boolean isElectric) {
 		this.isElectric=isElectric;
